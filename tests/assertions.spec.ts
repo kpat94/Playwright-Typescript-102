@@ -22,7 +22,7 @@ test('Login page assertions.', async({page}) => {
 
 });
 
-test.only('Multiple soft assertions followed by a hard assertion.', async({page}) => {
+test('Multiple soft assertions followed by a hard assertion.', async({page}) => {
 
     await page.goto("https://the-internet.herokuapp.com/login");
 
