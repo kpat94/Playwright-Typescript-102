@@ -1,0 +1,13 @@
+{
+    "data": {
+        "id": 2,
+        "email": "test_user",
+        "first_name": "test",
+        "last_name": "intercepted",
+        "avatar": ""
+    },
+    "support": {
+        "url": "",
+        "text": "pk"
+    }
+}

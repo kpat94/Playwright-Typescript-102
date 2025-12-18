@@ -1,7 +1,7 @@
 import { test, expect } from '@playwright/test';
 import savedResponse from '../test-data/api_name_responses.json';
 
-test.describe.only('API Testing.', () => {
+test.describe('API Testing.', () => {
 
     //1. Get all users.
     test('GET all users - match saved response.', async({ request }) => {
